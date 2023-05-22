@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+
+
+
+  
+  <title>ID Template</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/9815/9815472.png">
+    <link rel="canonical" href="https://codepen.io/giana/pen/BZaGyP" />
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+  
+<style>
+/*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows on hover/focus as non-hover/focus (even if you have to create a transparent shadow) so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+code {
+  color: #2ea44f;
+  font: inherit;
+}
+
+.template {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #2ea44f;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;     
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+.template:hover {
+    background-color: #2c974b;
+    border-color: #1b1f2326;
+    transition-duration: 0.1s;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <div class="buttons">
+  <h1>ID Templates for <code>DENR</code></h1>
+  <button class="template" onclick="window.open('https://www.canva.com/design/DAFjP4OTIh0/ZJWAQ873-tRIQe3qG7mXoA/edit?utm_content=DAFjP4OTIh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">1st Entry</button>
+  <button class="template" onclick="window.open('https://www.canva.com/design/DAFjOKlr1oU/D384VshM-TA2TTl2dMe0vw/edit?utm_content=DAFjOKlr1oU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">2nd Entry</button>
+  <button class="template" onclick="window.open('https://www.canva.com/design/DAFjOCll11I/i3_1a9WE78075gJ4gF2Slg/edit?utm_content=DAFjOCll11I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">3rd Entry</button>
+</div>
+  
+  
+  
+  
+</body>
+
+</html>
